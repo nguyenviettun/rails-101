@@ -7,3 +7,6 @@ tmp/pids/server.pid
 *.pid
 tmp/pids/server.pid
 *.pid
+log/test.log
+*.cache
+tmp/cache/assets/sprockets/v3.0/kp/kpLulh1lIMoJalwH3kpJ33dcEC6XUKUMUOYkhTzSlbM.cache
