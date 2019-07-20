@@ -10,3 +10,4 @@ tmp/pids/server.pid
 log/test.log
 *.cache
 tmp/cache/assets/sprockets/v3.0/kp/kpLulh1lIMoJalwH3kpJ33dcEC6XUKUMUOYkhTzSlbM.cache
+db/test.sqlite3
