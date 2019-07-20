@@ -1,0 +1,13 @@
+
+log/development.log
+db/development.sqlite3
+*.cache
+tmp/pids/server.pid
+tmp/pids/server.pid
+*.pid
+tmp/pids/server.pid
+*.pid
+log/test.log
+*.cache
+tmp/cache/assets/sprockets/v3.0/kp/kpLulh1lIMoJalwH3kpJ33dcEC6XUKUMUOYkhTzSlbM.cache
+db/test.sqlite3
