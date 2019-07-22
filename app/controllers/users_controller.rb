@@ -13,11 +13,17 @@ class UsersController < ApplicationController
   # POST /users
   # POST /users.json
   def create
-    @user = User.new(params[:user])
+    @user = User.new(user_params)
     if @user.save
       
     else
       render create_path
     end
   end
+
+  private
+    def user_params
+      params.required(:user).permit(:name, :email, :password, 
+                                    :password_confirmation)
+    end
 end
